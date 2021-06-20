@@ -1,2 +1,2 @@
-# fcc
-FreeCodeCamp Projects Repository
+# FreeCodeCamp Projects
+This is repository for FreeCodeCamp Projects
