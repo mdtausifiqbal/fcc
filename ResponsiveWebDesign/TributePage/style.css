@@ -14,14 +14,19 @@ main {
 h1, h2, h3 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    padding: 20px;
+    padding: 20px 0px;
 }
 
 p#sub-title, figcaption {
     text-align: center;
     font-size: 20px;
-    padding: 20px;
+    padding: 20px 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+figcaption {
+    text-align: justify;
+    font-size: 16px;
 }
 
 h1#title {
@@ -35,16 +40,15 @@ figure#img-div {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 20px;
     background-color: white;
-    margin: 20px auto;
     border-radius: 10px;
 }
 
 figure#img-div img{
     max-width: 100%;
     height: auto;
-    margin: 0px auto 20px;
+    margin: 0px auto;
     border-radius: 5px;
 }
 
